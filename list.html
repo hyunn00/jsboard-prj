@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyunn's Boards - list</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        body {
+            min-height: 96vh;
+            background: url('img/list.jpeg') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1><a href="index.html">Hyunn's Board</a></h1>
+        <h2>Board's Post List</h2>
+        <div id="searchDiv">
+            <select name="select" id="select">
+                <option value="all">All</option>
+                <option value="title">Title Only</option>
+                <option value="writer">Writer Only</option>
+            </select>
+            <input type="text" id="searchInput">
+            <button id="searchBtn">Search</button>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="header">
+            <ul>
+                <li>Num</li>
+                <li>Title</li>
+                <li>Writer</li>
+                <li>Created Date</li>
+                <li>Views</li>
+            </ul>
+        </div>
+        <div id="post-list"></div>
+        <a href="write.html">Write Post</a>
+        <div id="paging"></div>
+    </div>
+    
+
+    <script src="js/list.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid violet; */
+}
+
+#main {
+    position: static;
+    text-align: center;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+#main h1 {
+    padding: 20px
+}
+
+#main p {
+    padding: 20px;
+}
+
+#container {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+#container > a {
+    float: right;
+    padding : 5px;
+    margin : 5px;
+    text-align: center;
+    line-height: 12px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#searchDiv {
+    margin : 10px;
+}
+
+#container button,
+#submit-input,
+#searchBtn {
+    padding : 5px;
+    margin : 5px;
+    border-radius: 5px;
+    background-color: black;
+    color : white;
+    border: none;
+    cursor: pointer;
+}
+
+#post-list {
+    margin-bottom: 40px;;
+}
+
+/* #paging .pageBtn:active {
+    font-weight: bold;
+    background-color: white;
+    color : black;
+    border: 1px solid black;
+} */
+
+#paging .pageBtn.active {
+    padding : 4px;
+    font-weight: bold;
+    background-color: white;
+    color : black;
+    border: 2px solid black;
+}
+
+a {
+    color : black;
+}
+
+ul {
+    display: flex;
+    margin: 5px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+    width: 20%;
+}
+
+form {
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+form div {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form div b {
+    width: 20%;
+    margin-right: 5px;
+}
+
+form div input {
+    width: 80%;
+}
+
+form div textarea {
+    width: 80%;
+    height : 80px;
+    resize: vertical;
+}

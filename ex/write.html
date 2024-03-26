@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><a>Hyunn's board</a></h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>게시물 작성</legend>
+            <ul>
+                <li>
+                    <label>제목</label>
+                    <input type="text" id="board-title" placeholder="제목을 입력하세요">
+                </li>
+                <li>
+                    <label>작성자</label>
+                    <input type="text" id="board-writer" placeholder="작성자명을 입력하세요">
+                </li>
+                <li>
+                    <label>내용</label>
+                    <textarea id="board-content" cols="30" rows="4" placeholder="내용을 입력하세요"></textarea>
+                </li>
+                <button type="reset">초기화</button>
+                <button id="board-button">작성</button>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>게시물 목록</legend>
+            <ul id="board-list"></ul>
+        </fieldset>
+
+    </form>
+    <script src="write.js"></script>
+</body>
+</html>

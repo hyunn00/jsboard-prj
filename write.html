@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyunn's Boards - write</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        body {
+            min-height: 96vh;
+            background: url('img/write.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1><a href="index.html">Hyunn's Board</a></h1>
+        <h2>Write Post!</h2>
+    </div>
+    <div id="container">
+        <form action="" id="writeForm">
+            <div><b>Title</b><input type="text" name="title"></div>
+            <div><b>Writer</b><input type="text" name="writer"></div>
+            <div><b>Content</b><textarea name="content"></textarea></div>
+            <input id="submit-input" type="submit" value="Submit Post">
+            <button id="back">Cancel</button>
+        </form>
+    </div>
+
+    <script src="js/write.js"></script>
+</body>
+
+</html>
